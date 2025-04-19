@@ -2,7 +2,7 @@
 layout: post
 title: Catching up on posts I should have done since day 1
 subtitle: A sum-up of the first part of the course "MAC0470 - Desenvolvimento de Software Livre"
-tags: [MAC0470, USP, FLOSS, software]
+tags: [mac0470, usp, floss, software]
 author: Augusto Mariano Bernardi
 ---
 
