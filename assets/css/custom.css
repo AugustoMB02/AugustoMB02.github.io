@@ -1,0 +1,26 @@
+.highlight {
+    background: #ffffff !important;
+}
+
+.highlight pre {
+    background-color: #ffffff !important;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+    padding: 16px;
+}
+
+/* Diff specific styles */
+.highlight .gd {
+    color: #000000;
+    background-color: #ffdddd;
+}
+
+.highlight .gi {
+    color: #000000;
+    background-color: #ddffdd;
+}
+
+.highlight .gu {
+    color: #888888;
+    background-color: #f8f8f8;
+} 
