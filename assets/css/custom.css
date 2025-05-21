@@ -1,5 +1,7 @@
 .highlight {
     background: #ffffff !important;
+    border-radius: 3px;
+    margin: 1em 0;
 }
 
 .highlight pre {
@@ -7,20 +9,39 @@
     border: 1px solid #e1e4e8;
     border-radius: 3px;
     padding: 16px;
+    margin: 0;
 }
 
 /* Diff specific styles */
-.highlight .gd {
-    color: #000000;
-    background-color: #ffdddd;
+.highlight .gd,
+.highlight .gd .x,
+.highlight .gd .x {
+    color: #000000 !important;
+    background-color: #ffdddd !important;
 }
 
-.highlight .gi {
-    color: #000000;
-    background-color: #ddffdd;
+.highlight .gi,
+.highlight .gi .x,
+.highlight .gi .x {
+    color: #000000 !important;
+    background-color: #ddffdd !important;
 }
 
+/* Make sure the + and - symbols are visible */
+.highlight .gi:first-child,
+.highlight .gd:first-child {
+    color: #000000 !important;
+    background-color: #ddffdd !important;
+}
+
+/* Style for the diff header */
 .highlight .gu {
-    color: #888888;
-    background-color: #f8f8f8;
+    color: #888888 !important;
+    background-color: #f8f8f8 !important;
+}
+
+/* Ensure proper spacing between lines */
+.highlight .line {
+    display: block;
+    line-height: 1.5;
 } 
