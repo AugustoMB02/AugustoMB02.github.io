@@ -14,16 +14,16 @@ date: 2025-05-07
 
 ---
 
-## Why an “Undo” toast?
+## Why an "Undo" toast?
 
-Deleting an alarm by mistake is surprisingly easy—one errant tap and the row disappears forever.  GNOME’s design guidelines recommend offering *lightweight, inline* undo options for potentially destructive actions.  A toast (`Adw.Toast`) is perfect: it appears for a few seconds, stays out of the way, and can host an **Undo** button.
+Deleting an alarm by mistake is surprisingly easy—one errant tap and the row disappears forever.  GNOME's design guidelines recommend offering *lightweight, inline* undo options for potentially destructive actions.  A toast (`Adw.Toast`) is perfect: it appears for a few seconds, stays out of the way, and can host an **Undo** button.
 
 ---
 
 ## GitLab setup hiccups (a mini-postmortem)
 
 1. **Fork refused to fork**  
-   : My first click on “Fork” produced *“repository cannot be cloned”*. The root cause was that my **gitlab.gnome.org** account still pointed at a *detached* identity—GitLab.com thought I had 0 storage. Logging out, verifying my USP email and then signing back into the GNOME instance fixed it.
+   : My first click on "Fork" produced *"repository cannot be cloned"*. The root cause was that my **gitlab.gnome.org** account still pointed at a *detached* identity—GitLab.com thought I had 0 storage. Logging out, verifying my USP email and then signing back into the GNOME instance fixed it.
 
 ## The patch
 
@@ -36,7 +36,7 @@ Deleting an alarm by mistake is surprisingly easy—one errant tap and the row d
      private unowned Gtk.Stack stack;
      private Adw.Toast? ring_time_toast;
      private Alarm.Item? ring_time_toast_alarm;
-+    private Adw.Toast? delete_toast;   // ⇽ new toast for “Undo”
++    private Adw.Toast? delete_toast;   // ⇽ new toast for "Undo"
 +    private Alarm.Item? deleted_alarm; // ⇽ keeps a reference to the alarm we just removed
 @@
              row.remove_alarm.connect (() => {
@@ -85,6 +85,6 @@ Deleting an alarm by mistake is surprisingly easy—one errant tap and the row d
 +
 +        window.add_toast (delete_toast);
 +    }
-´´´
+```
 
 </details> 
