@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Contributing to *GNOME Clocks*: \"Undo\" support for deleted alarms"
-subtitle: "A small Vala patch that adds an **Undo** toast—and a few lessons from my first upstream MR"
+subtitle: "A small Vala patch that adds an **Undo** toast"
 tags: [mac0470, usp, floss, software, GNOME, vala]
 author: Augusto Mariano Bernardi
 date: 2025-05-07
@@ -10,7 +10,7 @@ date: 2025-05-07
 
 > **TL;DR**  
 > Issue [**#359**](https://gitlab.gnome.org/GNOME/gnome-clocks/-/issues/359) asked for a way to undo an accidental alarm deletion.  
-> My merge request [!346](https://gitlab.gnome.org/GNOME/gnome-clocks/-/merge_requests/346) adds a toast that lets you restore the alarm with a single click.
+> Our merge request [!346](https://gitlab.gnome.org/GNOME/gnome-clocks/-/merge_requests/346) adds a toast that lets you restore the alarm with a single click.
 
 ---
 
