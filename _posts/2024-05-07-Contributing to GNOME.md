@@ -84,4 +84,5 @@ Deleting an alarm by mistake is surprisingly easy—one errant tap and the row d
 +
 +       window.add_toast (delete_toast);
 +   }
-</details> ```
+```
+</details> 
