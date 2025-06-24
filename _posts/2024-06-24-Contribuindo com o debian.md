@@ -8,23 +8,16 @@ author: Augusto Mariano Bernardi
 
 ### Weekly Progress Log
 
-#### Week 1 — Selecting the Target Package
-* Briefly describe why you picked this package, existing issues you might tackle, and what you hope to learn.*
+#### Parte 1 — Configurando o Ambiente
+Segui o tutorial da comunidade **Debian Brasil** para preparar meu ambiente de empacotamento:  
+<https://debianbrasil.org.br/empacotamento/configurando-seu-ambiente>  
+Tudo ocorreu quase sem problemas: instalei `devscripts`, `lintian`, configurei minha chave GPG e criei a conta no Salsa.
+O uníco problema foi ao editar o arquivo "~/.bashrc" pois ouve um typo ao digitar o email e tive que gastar cerca de 10 minutos até notar que esse foi o problema ao testar a configuração.
 
-#### Week 2 — Preparing the Environment
-* Note install commands for `devscripts`, `lintian`, GPG setup, Salsa account creation, etc.*
+#### Parte 2 — A contribuição
+A contribuição foi realizada em aula, graças aos palestrantes Charles e Lucas Kanashiro o processo foi relativamente fácil e ajudou a compreender como funciona a contribuição.
+Primeiro selecionamos de uma lista de pacotes curados pelos palestrantes, e então abrimos uma issue <https://salsa.debian.org/debian-brasil-team/docs/-/issues/506> e a contribuição consistiu em atualizar a standard version que o pacote é compliant.
 
-#### Week 3 — Fetching the Source & Understanding the Debian Directory
-* Outline how you cloned or `apt source`d the package and what you discovered in `debian/`.*
-
-#### Week 4 — Making Initial Changes
-* Summarize the bugfix/feature you worked on, patched files, and any upstream syncs (`uscan`, `gbp import-orig`).*
-
-#### Week 5 — Building & Testing
-* Log your `debuild`, `sbuild`, or container builds, plus Lintian / autopkgtest results.*
-
-#### Week 6 — Submitting Your Contribution
-* Explain how you pushed to Salsa or attached a debdiff to the BTS, and the feedback loop so far.*
 
 ---
 
