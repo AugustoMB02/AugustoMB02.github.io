@@ -15,7 +15,7 @@ Instalei as dependencias, configurei o ambiente e criei a conta no Salsa quase s
 #### Parte 2 — A Contribuição
 A contribuição prática aconteceu em aula e foi facilitada pelos palestrantes **Charles** e **Lucas Kanashiro**. O fluxo, em resumo, foi:
 
-1. **Escolha do pacote** — trabalhamos com uma lista “curada” de pacotes mantidos pela comunidade.  
+1. **Escolha do pacote** — trabalhamos com uma lista “curada” de pacotes escolhidos pelos palestrantes.  
 2. **Registro da tarefa** — abrimos a *issue* <https://salsa.debian.org/debian-brasil-team/docs/-/issues/506> para acompanhar o trabalho.  
 3. **Atualização de `Standards-Version`** — ajustamos o campo no `debian/control` para a versão de política atual.  
 4. **Entrada no `debian/changelog`** — descrevi a alteração e assinei o *commit*.
