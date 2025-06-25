@@ -21,7 +21,7 @@ author: Augusto Mariano Bernardi
 ### 1.3 Empacotamento Debian — O ponto de virada
 * **Ferramentas bem calibradas** (`devscripts`, `lintian`, GPG, Salsa) → produtividade imediata.
 * **Processo guiado** — Issues curadas + mentoria de Charles e Lucas Kanashiro transformaram a contribuição em algo tangível.
-* **Primeiro MR** — Atualizar `Standards-Version` e assinar o `debian/changelog` parece simples, mas mostrou o rigor que mantém o ecossistema Debian saudável.
+* **Merge Request** — Atualizar `Standards-Version` e assinar o `debian/changelog` parece simples, mas mostrou o rigor que mantém o ecossistema Debian saudável.
 
 ### 1.4 Segunda contribuição ao GNOME — Ausente
 * **Razões pessoais** — Nas duas últimas semanas, adoeci por alguns dias e passei por outras circunstâncias pessoais que afetaram diretamente minha produtividade e motivação. Apesar disso, mantive algum contato com os projetos: voltei a explorar _issues_ no **Clocks**, além de dar uma olhada em problemas abertos no **Calendar**, **Boxes** e **Calculadora**. No entanto, não consegui avançar significativamente em nenhuma das tarefas que selecionei.
