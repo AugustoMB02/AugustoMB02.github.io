@@ -8,3 +8,5 @@ author: Augusto Mariano Bernardi
 
 Reinstalled ubuntu 24, being more careful this time during installation.
 
+Update: It still didn't work
+
